@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+
 import './App.css';
+import FoodContainer from './docs/map/basic/FoodContainer';
+import Colors from './docs/state/basic/Colors';
+
+// import Name from './docs/state/basic/Name';
+// import Count from './docs/state/basic/Count';
+// import Sound from './docs/state/basic/Sound';
+// import Container from './docs/props/Container';
+// import Jsx02 from './docs/components/Jsx02';
+// import Jsx03 from './docs/components/Jsx03';
+// import Jsx04 from './docs/components/Jsx04';
+// import Jsx05 from './docs/components/Jsx05';
+// import Jsx01, {Jsx02, Jsx03} from './docs/components/Jsx01';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Jsx01 />
+      <Jsx02 /> */}
+      {/* <Jsx02 />
+      <Jsx03 /> */}
+      {/* <Jsx04 /> */}
+      {/* <Jsx05 /> */}
+      {/* <Container /> */}
+      {/* <Count /> */}
+      {/* <Sound /> */}
+      {/* <Name /> */}
+     {/* <Colors /> */}
+     <FoodContainer />
     </div>
   );
 }
