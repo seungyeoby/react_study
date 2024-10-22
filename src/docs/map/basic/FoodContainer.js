@@ -15,9 +15,9 @@ const FoodContainer = () => {
         listStyle : "none"
     }
     return (
-        <ul>
+        <div>
             <Foods foods = {foods} style={style} />
-        </ul>
+        </div>
     );
 };
 
